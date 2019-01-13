@@ -13,6 +13,7 @@
 		2D7845F121E66DA700C47358 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D7845F021E66DA700C47358 /* Assets.xcassets */; };
 		2D7845F421E66DA700C47358 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D7845F221E66DA700C47358 /* LaunchScreen.storyboard */; };
 		2D7845FF21E66DA700C47358 /* DietPlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7845FE21E66DA700C47358 /* DietPlannerTests.swift */; };
+		2D78460A21E6722700C47358 /* DietMeal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D78460921E6722700C47358 /* DietMeal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		2D7845FA21E66DA700C47358 /* DietPlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DietPlannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D7845FE21E66DA700C47358 /* DietPlannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietPlannerTests.swift; sourceTree = "<group>"; };
 		2D78460021E66DA700C47358 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D78460921E6722700C47358 /* DietMeal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DietMeal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				2D7845E921E66DA600C47358 /* AppDelegate.swift */,
 				2D7845EB21E66DA600C47358 /* ViewController.swift */,
+				2D78460921E6722700C47358 /* DietMeal.swift */,
 				2D7845ED21E66DA600C47358 /* Main.storyboard */,
 				2D7845F021E66DA700C47358 /* Assets.xcassets */,
 				2D7845F221E66DA700C47358 /* LaunchScreen.storyboard */,
@@ -198,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D7845EC21E66DA600C47358 /* ViewController.swift in Sources */,
+				2D78460A21E6722700C47358 /* DietMeal.swift in Sources */,
 				2D7845EA21E66DA600C47358 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

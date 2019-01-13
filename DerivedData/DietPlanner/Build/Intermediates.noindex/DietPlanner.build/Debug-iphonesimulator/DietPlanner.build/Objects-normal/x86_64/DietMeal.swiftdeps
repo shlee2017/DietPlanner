@@ -1,0 +1,427 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DietMeal"
+provides-nominal:
+- "11DietPlanner0A4MealC"
+provides-member:
+- ["11DietPlanner0A4MealC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- !private "*"
+- !private "+="
+- !private "-"
+- !private "-="
+- !private "..<"
+- !private "/"
+- !private "/="
+- !private "<"
+- !private "=="
+- !private ">"
+- !private ">="
+- "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "DietMeal"
+- "Double"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "NSObject"
+- "String"
+- "StringLiteralType"
+- !private "UnicodeScalarType"
+- !private "abs"
+- !private "round"
+- !private "||"
+depends-member:
+- !private ["Sa", "count"]
+- !private ["Sa", "last"]
+- !private ["Sa", "subscript"]
+- !private ["s13ArrayProtocolP", "count"]
+- !private ["s13ArrayProtocolP", "last"]
+- !private ["s13ArrayProtocolP", "subscript"]
+- !private ["s10ArraySliceV", "count"]
+- !private ["s10ArraySliceV", "last"]
+- !private ["s10ArraySliceV", "subscript"]
+- !private ["SK", "count"]
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["SK", "last"]
+- !private ["SK", "subscript"]
+- !private ["SB", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "Carbs"]
+- !private ["s7CVarArgP", "Double"]
+- !private ["s7CVarArgP", "Fat"]
+- !private ["s7CVarArgP", "Protein"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "abs"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "findPivot"]
+- !private ["s7CVarArgP", "food"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isOptimal"]
+- !private ["s7CVarArgP", "last"]
+- !private ["s7CVarArgP", "matrix"]
+- !private ["s7CVarArgP", "mealPlan"]
+- !private ["s7CVarArgP", "name"]
+- !private ["s7CVarArgP", "output"]
+- !private ["s7CVarArgP", "round"]
+- !private ["s7CVarArgP", "rowReduce"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "count"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- !private ["Sl", "last"]
+- !private ["Sl", "subscript"]
+- ["SL", "init"]
+- ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Carbs"]
+- !private ["s28CustomDebugStringConvertibleP", "Double"]
+- !private ["s28CustomDebugStringConvertibleP", "Fat"]
+- !private ["s28CustomDebugStringConvertibleP", "Protein"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "abs"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "findPivot"]
+- !private ["s28CustomDebugStringConvertibleP", "food"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isOptimal"]
+- !private ["s28CustomDebugStringConvertibleP", "last"]
+- !private ["s28CustomDebugStringConvertibleP", "matrix"]
+- !private ["s28CustomDebugStringConvertibleP", "mealPlan"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s28CustomDebugStringConvertibleP", "output"]
+- !private ["s28CustomDebugStringConvertibleP", "round"]
+- !private ["s28CustomDebugStringConvertibleP", "rowReduce"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "count"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "last"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "Carbs"]
+- !private ["s23CustomStringConvertibleP", "Double"]
+- !private ["s23CustomStringConvertibleP", "Fat"]
+- !private ["s23CustomStringConvertibleP", "Protein"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "abs"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "findPivot"]
+- !private ["s23CustomStringConvertibleP", "food"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isOptimal"]
+- !private ["s23CustomStringConvertibleP", "last"]
+- !private ["s23CustomStringConvertibleP", "matrix"]
+- !private ["s23CustomStringConvertibleP", "mealPlan"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "output"]
+- !private ["s23CustomStringConvertibleP", "round"]
+- !private ["s23CustomStringConvertibleP", "rowReduce"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "count"]
+- ["Se", "init"]
+- ["Se", "init"]
+- !private ["Se", "last"]
+- !private ["Se", "subscript"]
+- ["11DietPlanner0A4MealC", "Bool"]
+- ["11DietPlanner0A4MealC", "Carbs"]
+- ["11DietPlanner0A4MealC", "Double"]
+- ["11DietPlanner0A4MealC", "Fat"]
+- ["11DietPlanner0A4MealC", "Int"]
+- ["11DietPlanner0A4MealC", "Protein"]
+- ["11DietPlanner0A4MealC", "String"]
+- !private ["11DietPlanner0A4MealC", "abs"]
+- ["11DietPlanner0A4MealC", "calc"]
+- ["11DietPlanner0A4MealC", "findPivot"]
+- ["11DietPlanner0A4MealC", "food"]
+- ["11DietPlanner0A4MealC", "getOutput"]
+- ["11DietPlanner0A4MealC", "init"]
+- ["11DietPlanner0A4MealC", "isOptimal"]
+- ["11DietPlanner0A4MealC", "matrix"]
+- ["11DietPlanner0A4MealC", "mealPlan"]
+- ["11DietPlanner0A4MealC", "name"]
+- ["11DietPlanner0A4MealC", "output"]
+- !private ["11DietPlanner0A4MealC", "round"]
+- ["11DietPlanner0A4MealC", "rowReduce"]
+- !private ["Sd", "init"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "count"]
+- ["SE", "init"]
+- ["SE", "init"]
+- !private ["SE", "last"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "Carbs"]
+- !private ["SQ", "Double"]
+- !private ["SQ", "Fat"]
+- !private ["SQ", "Protein"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "abs"]
+- !private ["SQ", "count"]
+- !private ["SQ", "findPivot"]
+- !private ["SQ", "food"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- !private ["SQ", "isOptimal"]
+- !private ["SQ", "last"]
+- !private ["SQ", "matrix"]
+- !private ["SQ", "mealPlan"]
+- !private ["SQ", "name"]
+- !private ["SQ", "output"]
+- !private ["SQ", "round"]
+- !private ["SQ", "rowReduce"]
+- !private ["SQ", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "last"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SF", "init"]
+- !private ["SH", "Carbs"]
+- !private ["SH", "Double"]
+- !private ["SH", "Fat"]
+- !private ["SH", "Protein"]
+- ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "abs"]
+- !private ["SH", "count"]
+- !private ["SH", "findPivot"]
+- !private ["SH", "food"]
+- ["SH", "init"]
+- ["SH", "init"]
+- !private ["SH", "isOptimal"]
+- !private ["SH", "last"]
+- !private ["SH", "matrix"]
+- !private ["SH", "mealPlan"]
+- !private ["SH", "name"]
+- !private ["SH", "output"]
+- !private ["SH", "round"]
+- !private ["SH", "rowReduce"]
+- !private ["SH", "subscript"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["SM", "count"]
+- !private ["SM", "last"]
+- !private ["SM", "subscript"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "Carbs"]
+- ["So8NSObjectC", "Double"]
+- ["So8NSObjectC", "Fat"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "Protein"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "abs"]
+- ["So8NSObjectC", "calc"]
+- ["So8NSObjectC", "findPivot"]
+- ["So8NSObjectC", "food"]
+- ["So8NSObjectC", "getOutput"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "isOptimal"]
+- ["So8NSObjectC", "matrix"]
+- ["So8NSObjectC", "mealPlan"]
+- ["So8NSObjectC", "name"]
+- ["So8NSObjectC", "output"]
+- !private ["So8NSObjectC", "round"]
+- ["So8NSObjectC", "rowReduce"]
+- !private ["So8NSObjectP", "Carbs"]
+- !private ["So8NSObjectP", "Double"]
+- !private ["So8NSObjectP", "Fat"]
+- !private ["So8NSObjectP", "Protein"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "abs"]
+- !private ["So8NSObjectP", "findPivot"]
+- !private ["So8NSObjectP", "food"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isOptimal"]
+- !private ["So8NSObjectP", "matrix"]
+- !private ["So8NSObjectP", "mealPlan"]
+- !private ["So8NSObjectP", "name"]
+- !private ["So8NSObjectP", "output"]
+- !private ["So8NSObjectP", "round"]
+- !private ["So8NSObjectP", "rowReduce"]
+- !private ["Sj", "init"]
+- !private ["Sk", "count"]
+- !private ["Sk", "last"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "count"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- !private ["Sm", "last"]
+- !private ["Sm", "subscript"]
+- !private ["ST", "count"]
+- ["ST", "init"]
+- ["ST", "init"]
+- !private ["ST", "last"]
+- !private ["ST", "subscript"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["Sx", "init"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "last"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "last"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Carbs"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Double"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Fat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Protein"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "abs"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "findPivot"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "food"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isOptimal"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "matrix"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mealPlan"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "output"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "round"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rowReduce"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "last"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "s10ArraySliceV"
+- "SK"
+- !private "SB"
+- !private "Sb"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "11DietPlanner0A4MealC"
+- !private "Sd"
+- "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SF"
+- "SH"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "SM"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sj"
+- !private "Sk"
+- "Sm"
+- "ST"
+- !private "s13SignedNumericP"
+- !private "s12StaticStringV"
+- !private "Sx"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/os.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/os.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "ad1ad9a8138c951d1a3bc2d3ae956195"
