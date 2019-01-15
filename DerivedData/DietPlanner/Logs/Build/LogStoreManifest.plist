@@ -1137,6 +1137,35 @@
 			<key>uniqueIdentifier</key>
 			<string>A3AD1165-DA7F-414E-A32A-0A7F6F2BF614</string>
 		</dict>
+		<key>A3FA0FC8-6E7C-429F-962C-23E581838C28</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A3FA0FC8-6E7C-429F-962C-23E581838C28.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>DietPlanner project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>DietPlanner</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build DietPlanner</string>
+			<key>timeStartedRecording</key>
+			<real>569276028.24025595</real>
+			<key>timeStoppedRecording</key>
+			<real>569276030.25543594</real>
+			<key>title</key>
+			<string>Build DietPlanner</string>
+			<key>uniqueIdentifier</key>
+			<string>A3FA0FC8-6E7C-429F-962C-23E581838C28</string>
+		</dict>
 		<key>A9BE6B97-7E83-4ED2-AFF7-3B6208E7C694</key>
 		<dict>
 			<key>className</key>
@@ -1542,6 +1571,35 @@
 			<string>Build DietPlanner</string>
 			<key>uniqueIdentifier</key>
 			<string>CC7C44DF-53FD-4C6D-A204-6868DE5855C5</string>
+		</dict>
+		<key>D31E05B6-FA44-43EC-9B53-C202868BE402</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D31E05B6-FA44-43EC-9B53-C202868BE402.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>DietPlanner project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>DietPlanner</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build DietPlanner</string>
+			<key>timeStartedRecording</key>
+			<real>569278788.78294599</real>
+			<key>timeStoppedRecording</key>
+			<real>569278800.20911396</real>
+			<key>title</key>
+			<string>Build DietPlanner</string>
+			<key>uniqueIdentifier</key>
+			<string>D31E05B6-FA44-43EC-9B53-C202868BE402</string>
 		</dict>
 		<key>D3208A44-2543-4533-93F4-ACF9E12CAACC</key>
 		<dict>

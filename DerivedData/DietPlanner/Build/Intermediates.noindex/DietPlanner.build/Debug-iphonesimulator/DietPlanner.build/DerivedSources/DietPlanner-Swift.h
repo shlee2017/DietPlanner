@@ -198,15 +198,17 @@ SWIFT_CLASS("_TtC11DietPlanner11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class NSCoder;
 
 SWIFT_CLASS("_TtC11DietPlanner8DietMeal")
-@interface DietMeal : NSObject
+@interface DietMeal : NSObject <NSCoding>
+- (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 @end
 
 @class UILabel;
-@class NSCoder;
 
 SWIFT_CLASS("_TtC11DietPlanner21DietMealTableViewCell")
 @interface DietMealTableViewCell : UITableViewCell

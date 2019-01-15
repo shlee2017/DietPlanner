@@ -18,8 +18,12 @@ class DietMealTableViewController: UITableViewController {
         super.viewDidLoad()
         
         navigationItem.leftBarButtonItem = editButtonItem
-        
-        loadSampleMealPlans()
+        if let savedMealPlans = loadMealPlans() {
+            mealPlans += savedMealPlans
+        }
+        else {
+            loadSampleMealPlans()
+        }
     }
     
     // MARK: - Table view data source
@@ -48,6 +52,7 @@ class DietMealTableViewController: UITableViewController {
         if editingStyle == .delete {
             // Delete the row from the data source
             mealPlans.remove(at: indexPath.row)
+            saveMealPlans()
             tableView.deleteRows(at: [indexPath], with: .fade)
         } else if editingStyle == .insert {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
@@ -103,6 +108,7 @@ class DietMealTableViewController: UITableViewController {
             }
         }
         
+        saveMealPlans()
     }
     
     //MARK: Private
@@ -113,6 +119,18 @@ class DietMealTableViewController: UITableViewController {
         mealPlans.append(mealPlan1!)
         mealPlans.append(mealPlan2!)
         mealPlans.append(mealPlan3!)
+    }
+    
+    private func saveMealPlans() {
+        let isSuccessfulSave = NSKeyedArchiver.archiveRootObject(mealPlans, toFile: DietMeal.ArchiveURL.path)
+        if isSuccessfulSave {
+            os_log("Meals successfully saved.", log: OSLog.default, type: .debug)
+        } else {
+            os_log("Failed to save meals...", log: OSLog.default, type: .error)
+        }
+    }
+    private func loadMealPlans() -> [DietMeal]?  {
+        return NSKeyedUnarchiver.unarchiveObject(withFile: DietMeal.ArchiveURL.path) as? [DietMeal]
     }
 }
 

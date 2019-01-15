@@ -6,11 +6,20 @@
 //  Copyright © 2019 Ethan Lee. All rights reserved.
 //
 
+/*doesn't work for
+ 100, 50, 20
+ */
+
 import Foundation
 import UIKit
 import os.log
 
-class DietMeal: NSObject {
+class DietMeal: NSObject, NSCoding {
+    //MARK: Archiving Paths
+    
+    static let DocumentsDirectory = FileManager().urls(for: .documentDirectory, in: .userDomainMask).first!
+    static let ArchiveURL = DocumentsDirectory.appendingPathComponent("mealPlans")
+    
     //MARK: Properties
     
     var name: String = "Diet Plan"
@@ -29,6 +38,15 @@ class DietMeal: NSObject {
         [0,    0.6,    0.1, 16.7,   2.7,  6.5, 0.1, 0,0,0,0,1, 33.33]
     ]
     
+    //MARK: Types
+    
+    struct PropertyKey {
+        static let name = "name"
+        static let Protein = "Protein"
+        static let Carbs = "Carbs"
+        static let Fat = "Fat"
+        static let output = "output"
+    }
     
     //MARK: Init
     init?(name: String, Protein: Double, Carbs: Double, Fat: Double) {
@@ -121,16 +139,29 @@ class DietMeal: NSObject {
         return output
     }
     
-    func getName() -> String {
-        return name
-    }
-    func getProtein() -> String {
-        return String(Protein)
-    }
-    func getCarb() -> String {
-        return String(Carbs)
-    }
-    func getFat() -> String {
-        return String(Fat)
+    //MARK: NNCoding
+    func encode(with aCoder: NSCoder) {
+        aCoder.encode(name, forKey: PropertyKey.name)
+        aCoder.encode(Protein, forKey: PropertyKey.Protein)
+        aCoder.encode(Carbs, forKey: PropertyKey.Carbs)
+        aCoder.encode(Fat, forKey: PropertyKey.Fat)
+        aCoder.encode(output, forKey: PropertyKey.output)    }
+    
+    required convenience init?(coder aDecoder: NSCoder) {
+        // The name is required. If we cannot decode a name string, the initializer should fail.
+        guard let name = aDecoder.decodeObject(forKey: PropertyKey.name) as? String else {
+            os_log("Unable to decode the name for a Meal object.", log: OSLog.default, type: .debug)
+            return nil
+        }
+        
+        // Optional
+        let Protein = aDecoder.decodeDouble(forKey: PropertyKey.Protein)
+        
+        let Carb = aDecoder.decodeDouble(forKey: PropertyKey.Carbs)
+        
+        let Fat = aDecoder.decodeDouble(forKey: PropertyKey.Fat)
+        
+        // Must call designated initializer.
+        self.init(name: name, Protein: Protein, Carbs: Carb, Fat: Fat)
     }
 }
