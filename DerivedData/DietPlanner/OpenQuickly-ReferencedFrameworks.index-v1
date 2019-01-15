@@ -3,6 +3,7 @@
 <plist version="1.0">
 <array>
 	<string>DietPlanner</string>
+	<string>Foundation</string>
 	<string>os</string>
 	<string>UIKit</string>
 	<string>XCTest</string>

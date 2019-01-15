@@ -17,6 +17,13 @@ class DietMealTableViewCell: UITableViewCell {
     @IBOutlet weak var fatLabel: UILabel!
     
     
+    func setMealPlan(mealPlan: DietMeal){
+        nameLabel.text = mealPlan.name
+        proteinLabel.text = String(mealPlan.Protein)
+        carbLabel.text = String(mealPlan.Carbs)
+        fatLabel.text = String(mealPlan.Fat)
+    }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

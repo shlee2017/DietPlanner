@@ -6,6 +6,7 @@
 //  Copyright © 2019 Ethan Lee. All rights reserved.
 //
 
+import Foundation
 import UIKit
 import os.log
 
@@ -118,5 +119,18 @@ class DietMeal: NSObject {
     
     func getOutput() -> String {
         return output
+    }
+    
+    func getName() -> String {
+        return name
+    }
+    func getProtein() -> String {
+        return String(Protein)
+    }
+    func getCarb() -> String {
+        return String(Carbs)
+    }
+    func getFat() -> String {
+        return String(Fat)
     }
 }
