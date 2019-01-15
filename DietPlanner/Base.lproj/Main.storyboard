@@ -60,6 +60,7 @@
                                     <outlet property="fatLabel" destination="glI-QS-lkO" id="AhA-Yh-Qzv"/>
                                     <outlet property="nameLabel" destination="LrU-fO-Pof" id="jy8-ds-rhJ"/>
                                     <outlet property="proteinLabel" destination="2Tb-AT-k0e" id="Ae1-LY-4s3"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="ShowDetail" id="oPX-8M-ldn"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -264,7 +265,10 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dOs-hf-JkF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1117.5999999999999" y="121.88905547226388"/>
+            <point key="canvasLocation" x="1180" y="500"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="oPX-8M-ldn"/>
+    </inferredMetricsTieBreakers>
 </document>

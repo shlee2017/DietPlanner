@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import os.log
 
 class DietMealTableViewController: UITableViewController {
 
@@ -15,6 +16,8 @@ class DietMealTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        navigationItem.leftBarButtonItem = editButtonItem
         
         loadSampleMealPlans()
     }
@@ -40,16 +43,66 @@ class DietMealTableViewController: UITableViewController {
         return cell
     }
     
+    // Override to support editing the table view.
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            // Delete the row from the data source
+            mealPlans.remove(at: indexPath.row)
+            tableView.deleteRows(at: [indexPath], with: .fade)
+        } else if editingStyle == .insert {
+            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
+        }
+    }
+    
+    // MARK: - Navigation
+    
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        super.prepare(for: segue, sender: sender)
+        
+        switch(segue.identifier ?? "") {
+            
+        case "AddItem":
+            os_log("Adding a new meal.", log: OSLog.default, type: .debug)
+            
+        case "ShowDetail":
+            guard let dietDetailViewController = segue.destination as? ViewController else {
+                fatalError("Unexpected destination: \(segue.destination)")
+            }
+            
+            guard let selectedDietCell = sender as? DietMealTableViewCell else {
+                fatalError("Unexpected sender: \(sender)")
+            }
+            
+            guard let indexPath = tableView.indexPath(for: selectedDietCell) else {
+                fatalError("The selected cell is not being displayed by the table")
+            }
+            
+            let selectedDiet = mealPlans[indexPath.row]
+            dietDetailViewController.dietMeal = selectedDiet
+            
+        default:
+            fatalError("Unexpected Segue Identifier; \(segue.identifier)")
+        }
+    }
+    
     //MARK: Action
     @IBAction func unwindToMealList(sender: UIStoryboardSegue) {
         if let sourceViewController = sender.source as? ViewController, let diet = sourceViewController.dietMeal {
-            
-            // Add a new meal.
-            let newIndexPath = IndexPath(row: mealPlans.count, section: 0)
-            
-            mealPlans.append(diet)
-            tableView.insertRows(at: [newIndexPath], with: .automatic)
+            if let selectedIndexPath = tableView.indexPathForSelectedRow {
+                // Update an existing meal.
+                mealPlans[selectedIndexPath.row] = diet
+                tableView.reloadRows(at: [selectedIndexPath], with: .none)
+            }
+            else{
+                // Add a new meal plan.
+                let newIndexPath = IndexPath(row: mealPlans.count, section: 0)
+                
+                mealPlans.append(diet)
+                tableView.insertRows(at: [newIndexPath], with: .automatic)
+            }
         }
+        
     }
     
     //MARK: Private
@@ -74,15 +127,7 @@ class DietMealTableViewController: UITableViewController {
  */
 
 /*
- // Override to support editing the table view.
- override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
- if editingStyle == .delete {
- // Delete the row from the data source
- tableView.deleteRows(at: [indexPath], with: .fade)
- } else if editingStyle == .insert {
- // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
- }
- }
+ 
  */
 
 /*
@@ -97,15 +142,5 @@ class DietMealTableViewController: UITableViewController {
  override func tableView(_ tableView: UITableView, canMoveRowAt indexPath: IndexPath) -> Bool {
  // Return false if you do not want the item to be re-orderable.
  return true
- }
- */
-
-/*
- // MARK: - Navigation
- 
- // In a storyboard-based application, you will often want to do a little preparation before navigation
- override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
- // Get the new view controller using segue.destination.
- // Pass the selected object to the new view controller.
  }
  */
