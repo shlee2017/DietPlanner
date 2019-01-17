@@ -6,7 +6,7 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>510DA7AA-41A9-4219-AB2C-906971D261FD</key>
+		<key>851080FB-653C-4051-A644-52862F1BE4EC</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,19 +15,19 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>510DA7AA-41A9-4219-AB2C-906971D261FD.xcactivitylog</string>
+			<string>851080FB-653C-4051-A644-52862F1BE4EC.xcactivitylog</string>
 			<key>highLevelStatus</key>
-			<string>W</string>
+			<string>S</string>
 			<key>signature</key>
 			<string>DietPlanner-cbmervxdpogeylaayudnamveqcyl</string>
 			<key>timeStartedRecording</key>
-			<real>569278789.58970404</real>
+			<real>569447361.28978896</real>
 			<key>timeStoppedRecording</key>
-			<real>569278799.89678895</real>
+			<real>569447362.10485601</real>
 			<key>title</key>
 			<string>Build target DietPlanner</string>
 			<key>uniqueIdentifier</key>
-			<string>510DA7AA-41A9-4219-AB2C-906971D261FD</string>
+			<string>851080FB-653C-4051-A644-52862F1BE4EC</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

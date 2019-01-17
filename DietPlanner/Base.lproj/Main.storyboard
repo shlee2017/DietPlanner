@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="PUM-hW-Tg8">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -14,15 +14,15 @@
             <objects>
                 <tableViewController id="bce-hb-FYv" customClass="DietMealTableViewController" customModule="DietPlanner" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="90" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="tb8-ha-QCa">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DietMealTableViewCell" rowHeight="90" id="MxU-zp-2O6" customClass="DietMealTableViewCell" customModule="DietPlanner" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="375" height="90"/>
+                                <rect key="frame" x="0.0" y="28" width="414" height="90"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="MxU-zp-2O6" id="hgT-36-Am5" customClass="DietMealTableViewCell" customModule="DietPlanner" customModuleProvider="target">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="89.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="89.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Meal Plan Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LrU-fO-Pof">
@@ -94,38 +94,29 @@
                         <viewControllerLayoutGuide type="bottom" id="MUN-oZ-if1"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4bW-Eu-b0v">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                                <items>
-                                    <navigationItem title="Title" id="sqY-DQ-0mT">
-                                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="utQ-Kj-1gt"/>
-                                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="gfB-tf-lxO"/>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="KdG-oZ-CzM">
-                                <rect key="frame" x="16" y="80" width="343" height="446"/>
+                                <rect key="frame" x="20" y="96" width="374" height="625"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Diet Meal Plan Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xcf-T4-fqJ">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                                     </textField>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="64" translatesAutoresizingMaskIntoConstraints="NO" id="JW2-1J-Ehl">
-                                        <rect key="frame" x="0.0" y="45" width="343" height="30"/>
+                                        <rect key="frame" x="0.0" y="45" width="374" height="20.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Protein:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I0k-i6-MtX">
-                                                <rect key="frame" x="0.0" y="0.0" width="59" height="30"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="59" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uVS-37-h58">
-                                                <rect key="frame" x="123" y="0.0" width="220" height="30"/>
+                                                <rect key="frame" x="123" y="0.0" width="251" height="20.5"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
@@ -133,16 +124,16 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="81" translatesAutoresizingMaskIntoConstraints="NO" id="gBH-LA-48O">
-                                        <rect key="frame" x="0.0" y="90" width="343" height="30"/>
+                                        <rect key="frame" x="0.0" y="80.5" width="374" height="23.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Carb:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GKa-BQ-gpN">
-                                                <rect key="frame" x="0.0" y="0.0" width="42" height="30"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="42" height="23.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8eg-cT-wsu">
-                                                <rect key="frame" x="123" y="0.0" width="220" height="30"/>
+                                                <rect key="frame" x="123" y="0.0" width="251" height="23.5"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
@@ -150,7 +141,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="94" translatesAutoresizingMaskIntoConstraints="NO" id="qFC-CS-kg1">
-                                        <rect key="frame" x="0.0" y="135" width="343" height="30"/>
+                                        <rect key="frame" x="0.0" y="119" width="374" height="30"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fat:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vho-ca-xED">
                                                 <rect key="frame" x="0.0" y="0.0" width="28.5" height="30"/>
@@ -159,7 +150,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bUd-fx-pl5">
-                                                <rect key="frame" x="122.5" y="0.0" width="220.5" height="30"/>
+                                                <rect key="frame" x="122.5" y="0.0" width="251.5" height="30"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
@@ -167,13 +158,13 @@
                                         </subviews>
                                     </stackView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Meal Plan:" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bEp-bT-Ovu">
-                                        <rect key="frame" x="0.0" y="180" width="343" height="221"/>
+                                        <rect key="frame" x="0.0" y="164" width="374" height="416"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences" secureTextEntry="YES"/>
                                     </textView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PxV-5S-Pzm">
-                                        <rect key="frame" x="0.0" y="416" width="64" height="30"/>
+                                        <rect key="frame" x="0.0" y="595" width="64" height="30"/>
                                         <state key="normal" title="Calculate"/>
                                         <connections>
                                             <action selector="calcButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SpE-bk-JgI"/>
@@ -198,11 +189,8 @@
                         <constraints>
                             <constraint firstItem="KdG-oZ-CzM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="5fA-1c-7KE"/>
                             <constraint firstItem="KdG-oZ-CzM" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="62l-2u-RTG"/>
-                            <constraint firstItem="KdG-oZ-CzM" firstAttribute="top" secondItem="4bW-Eu-b0v" secondAttribute="bottom" constant="16" id="74k-yi-y0y"/>
-                            <constraint firstItem="4bW-Eu-b0v" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="H0d-Pc-3Rd"/>
                             <constraint firstItem="MUN-oZ-if1" firstAttribute="top" secondItem="KdG-oZ-CzM" secondAttribute="bottom" constant="141" id="JVD-Cx-BjO"/>
-                            <constraint firstItem="KdG-oZ-CzM" firstAttribute="centerX" secondItem="4bW-Eu-b0v" secondAttribute="centerX" id="gjq-S5-mr6"/>
-                            <constraint firstItem="KdG-oZ-CzM" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="80" id="q8b-De-rjF"/>
+                            <constraint firstItem="KdG-oZ-CzM" firstAttribute="top" secondItem="5bS-OG-aHc" secondAttribute="bottom" constant="8" symbolic="YES" id="b53-Jr-oxa"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="New Meal Plan" id="dPz-u9-8zQ">
@@ -237,7 +225,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="PUM-hW-Tg8" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="q3r-Da-c5A">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -255,7 +243,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="BtE-gV-IhN" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="7Ab-S0-7P3">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
