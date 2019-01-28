@@ -1,0 +1,629 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DietMeal"
+provides-nominal:
+- "11DietPlanner0A4MealC"
+- "11DietPlanner0A4MealC11PropertyKeyV"
+provides-member:
+- ["11DietPlanner0A4MealC", ""]
+- ["11DietPlanner0A4MealC11PropertyKeyV", ""]
+provides-dynamic-lookup:
+- "encode"
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- !private "*"
+- !private "+="
+- !private "-"
+- !private "-="
+- !private "..<"
+- !private "/"
+- !private "/="
+- !private "<"
+- !private "=="
+- !private ">"
+- !private ">="
+- "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "DietMeal"
+- "Double"
+- "FileManager"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "NSCoder"
+- "NSCoding"
+- "NSObject"
+- !private "OSLog"
+- "String"
+- "StringLiteralType"
+- !private "UnicodeScalarType"
+- !private "abs"
+- !private "os_log"
+- !private "round"
+- !private "||"
+depends-member:
+- !private ["Sa", "count"]
+- ["Sa", "first"]
+- !private ["Sa", "last"]
+- !private ["Sa", "subscript"]
+- !private ["s13ArrayProtocolP", "count"]
+- ["s13ArrayProtocolP", "first"]
+- !private ["s13ArrayProtocolP", "last"]
+- !private ["s13ArrayProtocolP", "subscript"]
+- !private ["s10ArraySliceV", "count"]
+- !private ["s10ArraySliceV", "last"]
+- !private ["s10ArraySliceV", "subscript"]
+- !private ["SK", "count"]
+- ["SK", "first"]
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["SK", "last"]
+- !private ["SK", "subscript"]
+- !private ["SB", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "Carbs"]
+- ["s7CVarArgP", "DocumentsDirectory"]
+- !private ["s7CVarArgP", "Double"]
+- !private ["s7CVarArgP", "Fat"]
+- ["s7CVarArgP", "FileManager"]
+- !private ["s7CVarArgP", "OSLog"]
+- !private ["s7CVarArgP", "PropertyKey"]
+- !private ["s7CVarArgP", "Protein"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "abs"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "decodeDouble"]
+- !private ["s7CVarArgP", "decodeObject"]
+- !private ["s7CVarArgP", "default"]
+- ["s7CVarArgP", "encode"]
+- ["s7CVarArgP", "encodeWithCoder"]
+- !private ["s7CVarArgP", "findPivot"]
+- ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "food"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isOptimal"]
+- !private ["s7CVarArgP", "last"]
+- !private ["s7CVarArgP", "matrix"]
+- !private ["s7CVarArgP", "mealPlan"]
+- !private ["s7CVarArgP", "name"]
+- !private ["s7CVarArgP", "os_log"]
+- !private ["s7CVarArgP", "output"]
+- !private ["s7CVarArgP", "round"]
+- !private ["s7CVarArgP", "rowReduce"]
+- !private ["s7CVarArgP", "subscript"]
+- ["s7CVarArgP", "urls"]
+- !private ["Sl", "count"]
+- ["Sl", "first"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- !private ["Sl", "last"]
+- !private ["Sl", "subscript"]
+- ["SL", "init"]
+- ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Carbs"]
+- ["s28CustomDebugStringConvertibleP", "DocumentsDirectory"]
+- !private ["s28CustomDebugStringConvertibleP", "Double"]
+- !private ["s28CustomDebugStringConvertibleP", "Fat"]
+- ["s28CustomDebugStringConvertibleP", "FileManager"]
+- !private ["s28CustomDebugStringConvertibleP", "OSLog"]
+- !private ["s28CustomDebugStringConvertibleP", "PropertyKey"]
+- !private ["s28CustomDebugStringConvertibleP", "Protein"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "abs"]
+- ["s28CustomDebugStringConvertibleP", "appendingPathComponent"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "decodeDouble"]
+- !private ["s28CustomDebugStringConvertibleP", "decodeObject"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- ["s28CustomDebugStringConvertibleP", "encode"]
+- ["s28CustomDebugStringConvertibleP", "encodeWithCoder"]
+- !private ["s28CustomDebugStringConvertibleP", "findPivot"]
+- ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "food"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isOptimal"]
+- !private ["s28CustomDebugStringConvertibleP", "last"]
+- !private ["s28CustomDebugStringConvertibleP", "matrix"]
+- !private ["s28CustomDebugStringConvertibleP", "mealPlan"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s28CustomDebugStringConvertibleP", "os_log"]
+- !private ["s28CustomDebugStringConvertibleP", "output"]
+- !private ["s28CustomDebugStringConvertibleP", "round"]
+- !private ["s28CustomDebugStringConvertibleP", "rowReduce"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "urls"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "appendingPathComponent"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "count"]
+- ["s17CustomReflectableP", "first"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "last"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "Carbs"]
+- ["s23CustomStringConvertibleP", "DocumentsDirectory"]
+- !private ["s23CustomStringConvertibleP", "Double"]
+- !private ["s23CustomStringConvertibleP", "Fat"]
+- ["s23CustomStringConvertibleP", "FileManager"]
+- !private ["s23CustomStringConvertibleP", "OSLog"]
+- !private ["s23CustomStringConvertibleP", "PropertyKey"]
+- !private ["s23CustomStringConvertibleP", "Protein"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "abs"]
+- ["s23CustomStringConvertibleP", "appendingPathComponent"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "decodeDouble"]
+- !private ["s23CustomStringConvertibleP", "decodeObject"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- ["s23CustomStringConvertibleP", "encode"]
+- ["s23CustomStringConvertibleP", "encodeWithCoder"]
+- !private ["s23CustomStringConvertibleP", "findPivot"]
+- ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "food"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isOptimal"]
+- !private ["s23CustomStringConvertibleP", "last"]
+- !private ["s23CustomStringConvertibleP", "matrix"]
+- !private ["s23CustomStringConvertibleP", "mealPlan"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "os_log"]
+- !private ["s23CustomStringConvertibleP", "output"]
+- !private ["s23CustomStringConvertibleP", "round"]
+- !private ["s23CustomStringConvertibleP", "rowReduce"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- ["s23CustomStringConvertibleP", "urls"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- ["Se", "appendingPathComponent"]
+- !private ["Se", "count"]
+- ["Se", "first"]
+- ["Se", "init"]
+- ["Se", "init"]
+- !private ["Se", "last"]
+- !private ["Se", "subscript"]
+- ["11DietPlanner0A4MealC", "ArchiveURL"]
+- ["11DietPlanner0A4MealC", "Bool"]
+- ["11DietPlanner0A4MealC", "Carbs"]
+- ["11DietPlanner0A4MealC", "DocumentsDirectory"]
+- ["11DietPlanner0A4MealC", "Double"]
+- ["11DietPlanner0A4MealC", "Fat"]
+- ["11DietPlanner0A4MealC", "FileManager"]
+- ["11DietPlanner0A4MealC", "Int"]
+- ["11DietPlanner0A4MealC", "NSCoder"]
+- !private ["11DietPlanner0A4MealC", "OSLog"]
+- ["11DietPlanner0A4MealC", "PropertyKey"]
+- ["11DietPlanner0A4MealC", "Protein"]
+- ["11DietPlanner0A4MealC", "String"]
+- !private ["11DietPlanner0A4MealC", "abs"]
+- ["11DietPlanner0A4MealC", "calc"]
+- ["11DietPlanner0A4MealC", "deinit"]
+- ["11DietPlanner0A4MealC", "encode"]
+- ["11DietPlanner0A4MealC", "encodeWithCoder"]
+- ["11DietPlanner0A4MealC", "findPivot"]
+- ["11DietPlanner0A4MealC", "food"]
+- ["11DietPlanner0A4MealC", "getOutput"]
+- ["11DietPlanner0A4MealC", "init"]
+- ["11DietPlanner0A4MealC", "isOptimal"]
+- ["11DietPlanner0A4MealC", "matrix"]
+- ["11DietPlanner0A4MealC", "mealPlan"]
+- ["11DietPlanner0A4MealC", "name"]
+- !private ["11DietPlanner0A4MealC", "os_log"]
+- ["11DietPlanner0A4MealC", "output"]
+- !private ["11DietPlanner0A4MealC", "round"]
+- ["11DietPlanner0A4MealC", "rowReduce"]
+- !private ["Sd", "init"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- ["SE", "appendingPathComponent"]
+- !private ["SE", "count"]
+- ["SE", "first"]
+- ["SE", "init"]
+- ["SE", "init"]
+- !private ["SE", "last"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "Carbs"]
+- ["SQ", "DocumentsDirectory"]
+- !private ["SQ", "Double"]
+- !private ["SQ", "Fat"]
+- ["SQ", "FileManager"]
+- !private ["SQ", "OSLog"]
+- !private ["SQ", "PropertyKey"]
+- !private ["SQ", "Protein"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "abs"]
+- ["SQ", "appendingPathComponent"]
+- !private ["SQ", "count"]
+- !private ["SQ", "debug"]
+- !private ["SQ", "decodeDouble"]
+- !private ["SQ", "decodeObject"]
+- !private ["SQ", "default"]
+- ["SQ", "documentDirectory"]
+- ["SQ", "encode"]
+- ["SQ", "encodeWithCoder"]
+- !private ["SQ", "findPivot"]
+- ["SQ", "first"]
+- !private ["SQ", "food"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- !private ["SQ", "isOptimal"]
+- !private ["SQ", "last"]
+- !private ["SQ", "matrix"]
+- !private ["SQ", "mealPlan"]
+- !private ["SQ", "name"]
+- !private ["SQ", "os_log"]
+- !private ["SQ", "output"]
+- !private ["SQ", "round"]
+- !private ["SQ", "rowReduce"]
+- !private ["SQ", "subscript"]
+- ["SQ", "urls"]
+- ["SQ", "userDomainMask"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "last"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- ["s25ExpressibleByArrayLiteralP", "userDomainMask"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["So13NSFileManagerC", "init"]
+- ["So13NSFileManagerC", "urls"]
+- !private ["SF", "init"]
+- !private ["SH", "Carbs"]
+- ["SH", "DocumentsDirectory"]
+- !private ["SH", "Double"]
+- !private ["SH", "Fat"]
+- ["SH", "FileManager"]
+- !private ["SH", "OSLog"]
+- !private ["SH", "PropertyKey"]
+- !private ["SH", "Protein"]
+- ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "abs"]
+- ["SH", "appendingPathComponent"]
+- !private ["SH", "count"]
+- !private ["SH", "decodeDouble"]
+- !private ["SH", "decodeObject"]
+- !private ["SH", "default"]
+- ["SH", "documentDirectory"]
+- ["SH", "encode"]
+- ["SH", "encodeWithCoder"]
+- !private ["SH", "findPivot"]
+- ["SH", "first"]
+- !private ["SH", "food"]
+- ["SH", "init"]
+- ["SH", "init"]
+- !private ["SH", "isOptimal"]
+- !private ["SH", "last"]
+- !private ["SH", "matrix"]
+- !private ["SH", "mealPlan"]
+- !private ["SH", "name"]
+- !private ["SH", "os_log"]
+- !private ["SH", "output"]
+- !private ["SH", "round"]
+- !private ["SH", "rowReduce"]
+- !private ["SH", "subscript"]
+- ["SH", "urls"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["SM", "count"]
+- ["SM", "first"]
+- !private ["SM", "last"]
+- !private ["SM", "subscript"]
+- !private ["So7NSCoderC", "decodeDouble"]
+- !private ["So7NSCoderC", "decodeObject"]
+- !private ["So7NSCoderC", "encode"]
+- !private ["So8NSCodingP", "Carbs"]
+- ["So8NSCodingP", "DocumentsDirectory"]
+- !private ["So8NSCodingP", "Double"]
+- !private ["So8NSCodingP", "Fat"]
+- ["So8NSCodingP", "FileManager"]
+- !private ["So8NSCodingP", "OSLog"]
+- !private ["So8NSCodingP", "PropertyKey"]
+- !private ["So8NSCodingP", "Protein"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "abs"]
+- ["So8NSCodingP", "encode"]
+- ["So8NSCodingP", "encodeWithCoder"]
+- !private ["So8NSCodingP", "findPivot"]
+- !private ["So8NSCodingP", "food"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isOptimal"]
+- !private ["So8NSCodingP", "matrix"]
+- !private ["So8NSCodingP", "mealPlan"]
+- !private ["So8NSCodingP", "name"]
+- !private ["So8NSCodingP", "os_log"]
+- !private ["So8NSCodingP", "output"]
+- !private ["So8NSCodingP", "round"]
+- !private ["So8NSCodingP", "rowReduce"]
+- ["So8NSObjectC", "ArchiveURL"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "Carbs"]
+- ["So8NSObjectC", "DocumentsDirectory"]
+- ["So8NSObjectC", "Double"]
+- ["So8NSObjectC", "Fat"]
+- ["So8NSObjectC", "FileManager"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "NSCoder"]
+- !private ["So8NSObjectC", "OSLog"]
+- !private ["So8NSObjectC", "PropertyKey"]
+- ["So8NSObjectC", "Protein"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "abs"]
+- ["So8NSObjectC", "calc"]
+- !private ["So8NSObjectC", "decodeDouble"]
+- !private ["So8NSObjectC", "decodeObject"]
+- !private ["So8NSObjectC", "default"]
+- ["So8NSObjectC", "encode"]
+- ["So8NSObjectC", "encodeWithCoder"]
+- ["So8NSObjectC", "findPivot"]
+- ["So8NSObjectC", "food"]
+- ["So8NSObjectC", "getOutput"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "isOptimal"]
+- ["So8NSObjectC", "matrix"]
+- ["So8NSObjectC", "mealPlan"]
+- ["So8NSObjectC", "name"]
+- !private ["So8NSObjectC", "os_log"]
+- ["So8NSObjectC", "output"]
+- !private ["So8NSObjectC", "round"]
+- ["So8NSObjectC", "rowReduce"]
+- ["So8NSObjectC", "urls"]
+- !private ["So8NSObjectP", "Carbs"]
+- ["So8NSObjectP", "DocumentsDirectory"]
+- !private ["So8NSObjectP", "Double"]
+- !private ["So8NSObjectP", "Fat"]
+- ["So8NSObjectP", "FileManager"]
+- !private ["So8NSObjectP", "OSLog"]
+- !private ["So8NSObjectP", "PropertyKey"]
+- !private ["So8NSObjectP", "Protein"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "abs"]
+- !private ["So8NSObjectP", "decodeDouble"]
+- !private ["So8NSObjectP", "decodeObject"]
+- !private ["So8NSObjectP", "default"]
+- ["So8NSObjectP", "encode"]
+- ["So8NSObjectP", "encodeWithCoder"]
+- !private ["So8NSObjectP", "findPivot"]
+- !private ["So8NSObjectP", "food"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isOptimal"]
+- !private ["So8NSObjectP", "matrix"]
+- !private ["So8NSObjectP", "mealPlan"]
+- !private ["So8NSObjectP", "name"]
+- !private ["So8NSObjectP", "os_log"]
+- !private ["So8NSObjectP", "output"]
+- !private ["So8NSObjectP", "round"]
+- !private ["So8NSObjectP", "rowReduce"]
+- ["So8NSObjectP", "urls"]
+- !private ["Sj", "init"]
+- !private ["So9OS_os_logC", "default"]
+- !private ["So13os_log_type_ta", "debug"]
+- ["s9OptionSetP", "userDomainMask"]
+- ["11DietPlanner0A4MealC11PropertyKeyV", "Carbs"]
+- ["11DietPlanner0A4MealC11PropertyKeyV", "Fat"]
+- ["11DietPlanner0A4MealC11PropertyKeyV", "Protein"]
+- ["11DietPlanner0A4MealC11PropertyKeyV", "init"]
+- ["11DietPlanner0A4MealC11PropertyKeyV", "name"]
+- ["11DietPlanner0A4MealC11PropertyKeyV", "output"]
+- !private ["Sk", "count"]
+- ["Sk", "first"]
+- !private ["Sk", "last"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "count"]
+- ["Sm", "first"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- !private ["Sm", "last"]
+- !private ["Sm", "subscript"]
+- !private ["SY", "debug"]
+- ["SY", "documentDirectory"]
+- ["SY", "userDomainMask"]
+- ["10Foundation20ReferenceConvertibleP", "appendingPathComponent"]
+- ["So21NSSearchPathDirectoryV", "documentDirectory"]
+- ["So22NSSearchPathDomainMaskV", "userDomainMask"]
+- !private ["ST", "count"]
+- ["ST", "first"]
+- ["ST", "init"]
+- ["ST", "init"]
+- !private ["ST", "last"]
+- !private ["ST", "subscript"]
+- ["s10SetAlgebraP", "userDomainMask"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["Sx", "init"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["10Foundation3URLV", "appendingPathComponent"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "last"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s34_ExpressibleByFileReferenceLiteralP", "appendingPathComponent"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "last"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Carbs"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "DocumentsDirectory"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Double"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Fat"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "FileManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "OSLog"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PropertyKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Protein"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "abs"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "decodeDouble"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "decodeObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "encode"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "encodeWithCoder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "findPivot"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "food"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isOptimal"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "matrix"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mealPlan"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "os_log"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "output"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "round"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rowReduce"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "urls"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "appendingPathComponent"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- ["s21_ObjectiveCBridgeableP", "first"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "last"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "Sa"
+- "s13ArrayProtocolP"
+- !private "s10ArraySliceV"
+- "SK"
+- !private "SB"
+- !private "Sb"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "11DietPlanner0A4MealC"
+- !private "Sd"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "So13NSFileManagerC"
+- !private "SF"
+- "SH"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "SM"
+- !private "So7NSCoderC"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sj"
+- !private "So9OS_os_logC"
+- !private "So13os_log_type_ta"
+- "s9OptionSetP"
+- "11DietPlanner0A4MealC11PropertyKeyV"
+- "Sk"
+- "Sm"
+- "SY"
+- "10Foundation20ReferenceConvertibleP"
+- "So21NSSearchPathDirectoryV"
+- "So22NSSearchPathDomainMaskV"
+- "ST"
+- "s10SetAlgebraP"
+- !private "s13SignedNumericP"
+- !private "s12StaticStringV"
+- !private "Sx"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "10Foundation3URLV"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s34_ExpressibleByFileReferenceLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "683c1348657b7f2714e2b9922a075ee4"

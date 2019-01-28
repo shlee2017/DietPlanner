@@ -6,7 +6,7 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>3FF3D6D6-A5D3-4D10-A218-45900C642A2F</key>
+		<key>1CC39EFD-6DC2-483F-845F-E90FB84AC009</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>3FF3D6D6-A5D3-4D10-A218-45900C642A2F.xcactivitylog</string>
+			<string>1CC39EFD-6DC2-483F-845F-E90FB84AC009.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>schemeIdentifier-containerName</key>
@@ -27,42 +27,13 @@
 			<key>signature</key>
 			<string>Debug DietPlanner</string>
 			<key>timeStartedRecording</key>
-			<real>569360086.03003597</real>
+			<real>570384172.04196</real>
 			<key>timeStoppedRecording</key>
-			<real>569363291.39587605</real>
+			<real>570384190.08619702</real>
 			<key>title</key>
 			<string>Debug DietPlanner</string>
 			<key>uniqueIdentifier</key>
-			<string>3FF3D6D6-A5D3-4D10-A218-45900C642A2F</string>
-		</dict>
-		<key>41D9667B-EE7D-4DF3-9791-60AE8D8D8316</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>41D9667B-EE7D-4DF3-9791-60AE8D8D8316.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>DietPlanner project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>DietPlanner</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug DietPlanner</string>
-			<key>timeStartedRecording</key>
-			<real>569446925.16970503</real>
-			<key>timeStoppedRecording</key>
-			<real>569447098.36465096</real>
-			<key>title</key>
-			<string>Debug DietPlanner</string>
-			<key>uniqueIdentifier</key>
-			<string>41D9667B-EE7D-4DF3-9791-60AE8D8D8316</string>
+			<string>1CC39EFD-6DC2-483F-845F-E90FB84AC009</string>
 		</dict>
 		<key>4923DA04-598A-4ED4-8219-B692A396F5C0</key>
 		<dict>
@@ -92,64 +63,6 @@
 			<string>Debug DietPlanner</string>
 			<key>uniqueIdentifier</key>
 			<string>4923DA04-598A-4ED4-8219-B692A396F5C0</string>
-		</dict>
-		<key>D2807FCC-79AD-4994-9EAD-C8D77D1DF5ED</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>D2807FCC-79AD-4994-9EAD-C8D77D1DF5ED.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>DietPlanner project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>DietPlanner</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug DietPlanner</string>
-			<key>timeStartedRecording</key>
-			<real>569447267.00890505</real>
-			<key>timeStoppedRecording</key>
-			<real>569447361.38720703</real>
-			<key>title</key>
-			<string>Debug DietPlanner</string>
-			<key>uniqueIdentifier</key>
-			<string>D2807FCC-79AD-4994-9EAD-C8D77D1DF5ED</string>
-		</dict>
-		<key>D4FEFC57-931F-46DB-8B99-2144B3D5495F</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>D4FEFC57-931F-46DB-8B99-2144B3D5495F.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>DietPlanner project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>DietPlanner</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug DietPlanner</string>
-			<key>timeStartedRecording</key>
-			<real>569447111.05956101</real>
-			<key>timeStoppedRecording</key>
-			<real>569447262.72447205</real>
-			<key>title</key>
-			<string>Debug DietPlanner</string>
-			<key>uniqueIdentifier</key>
-			<string>D4FEFC57-931F-46DB-8B99-2144B3D5495F</string>
 		</dict>
 	</dict>
 </dict>
