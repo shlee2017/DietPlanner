@@ -35,35 +35,6 @@
 			<key>uniqueIdentifier</key>
 			<string>1CC39EFD-6DC2-483F-845F-E90FB84AC009</string>
 		</dict>
-		<key>4923DA04-598A-4ED4-8219-B692A396F5C0</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>4923DA04-598A-4ED4-8219-B692A396F5C0.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>DietPlanner project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>DietPlanner</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug DietPlanner</string>
-			<key>timeStartedRecording</key>
-			<real>569447362.11100399</real>
-			<key>timeStoppedRecording</key>
-			<real>569447384.12478197</real>
-			<key>title</key>
-			<string>Debug DietPlanner</string>
-			<key>uniqueIdentifier</key>
-			<string>4923DA04-598A-4ED4-8219-B692A396F5C0</string>
-		</dict>
 	</dict>
 </dict>
 </plist>

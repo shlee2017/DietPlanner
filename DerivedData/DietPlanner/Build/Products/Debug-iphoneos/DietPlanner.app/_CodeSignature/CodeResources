@@ -4,6 +4,14 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>AppIcon60x60@2x.png</key>
+		<data>
+		JleS6gwxWgP9qq4MQXGMEFQZjFA=
+		</data>
+		<key>Assets.car</key>
+		<data>
+		3wj4iNCnrzmpaZk2RNdS6Egm5Ik=
+		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
 		JiF+YTUEy9kGQQCdD7sko+IvffI=
@@ -94,7 +102,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		1C/J3rSF7kxUV3Flf/N3phSquiw=
+		S4HTCZtw528P+cnc/+lY+3mvyBQ=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -102,7 +110,7 @@
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		aUpyng3WULOxnF+KuBNd8Q7QSaQ=
+		Ut/x4KtvARUDBzYzG5W7r4Awwi0=
 		</data>
 		<key>libswiftRemoteMirror.dylib</key>
 		<data>
@@ -111,6 +119,20 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>AppIcon60x60@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HQgDywIdkaJ4YVsU6xvevPpn6MmJi8BS+z5zHTOMzb8=
+			</data>
+		</dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			J0B4zjetJKnxEJflponn+ZaH0WTqoyL4JAp6lR3jCcc=
+			</data>
+		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash2</key>
@@ -269,7 +291,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nVYIboQwdW5HcWGcsE/B33JzTAb9RWnzEUdWFOTP+bo=
+			BBl90RkWVCT+Df1ZfvZEQG1mrtR1bY4PY3wRj+XHO+Y=
 			</data>
 		</dict>
 		<key>libswiftRemoteMirror.dylib</key>
