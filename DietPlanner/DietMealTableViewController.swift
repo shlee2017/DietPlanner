@@ -76,7 +76,7 @@ class DietMealTableViewController: UITableViewController {
             }
             
             guard let selectedDietCell = sender as? DietMealTableViewCell else {
-                fatalError("Unexpected sender: \(sender)")
+                fatalError("Unexpected sender: \(String(describing: sender))")
             }
             
             guard let indexPath = tableView.indexPath(for: selectedDietCell) else {
@@ -87,7 +87,7 @@ class DietMealTableViewController: UITableViewController {
             dietDetailViewController.dietMeal = selectedDiet
             
         default:
-            fatalError("Unexpected Segue Identifier; \(segue.identifier)")
+            fatalError("Unexpected Segue Identifier; \(String(describing: segue.identifier))")
         }
     }
     

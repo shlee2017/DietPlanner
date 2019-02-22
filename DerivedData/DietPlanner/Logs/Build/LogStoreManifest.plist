@@ -6,7 +6,7 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>062F9FA0-27F2-45BE-BCEE-BCD707009C64</key>
+		<key>173C84EC-3A46-41F7-943E-E65186161C97</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>062F9FA0-27F2-45BE-BCEE-BCD707009C64.xcactivitylog</string>
+			<string>173C84EC-3A46-41F7-943E-E65186161C97.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>W</string>
 			<key>schemeIdentifier-containerName</key>
@@ -27,13 +27,42 @@
 			<key>signature</key>
 			<string>Build DietPlanner</string>
 			<key>timeStartedRecording</key>
-			<real>571529300.13647401</real>
+			<real>572541211.33320999</real>
 			<key>timeStoppedRecording</key>
-			<real>571529305.08594704</real>
+			<real>572541215.19181895</real>
 			<key>title</key>
 			<string>Build DietPlanner</string>
 			<key>uniqueIdentifier</key>
-			<string>062F9FA0-27F2-45BE-BCEE-BCD707009C64</string>
+			<string>173C84EC-3A46-41F7-943E-E65186161C97</string>
+		</dict>
+		<key>3086C550-EDD3-4F18-866C-F02185493C8B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3086C550-EDD3-4F18-866C-F02185493C8B.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>DietPlanner project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>DietPlanner</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build DietPlanner</string>
+			<key>timeStartedRecording</key>
+			<real>572541128.97066498</real>
+			<key>timeStoppedRecording</key>
+			<real>572541146.43732202</real>
+			<key>title</key>
+			<string>Build DietPlanner</string>
+			<key>uniqueIdentifier</key>
+			<string>3086C550-EDD3-4F18-866C-F02185493C8B</string>
 		</dict>
 	</dict>
 </dict>

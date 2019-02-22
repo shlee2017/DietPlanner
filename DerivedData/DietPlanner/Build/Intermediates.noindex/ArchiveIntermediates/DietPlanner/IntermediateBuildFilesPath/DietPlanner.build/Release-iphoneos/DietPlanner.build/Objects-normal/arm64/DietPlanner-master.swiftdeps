@@ -1,9 +1,0 @@
-version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
-options: "3b0111a6275de4c834b80ece2d7f799a"
-build_time: [1548690981, 252079000]
-inputs:
-  "/Users/sangheonlee/Desktop/DietPlanner stuff/DietPlanner/DietPlanner/ViewController.swift": [9223372036, 854775807]
-  "/Users/sangheonlee/Desktop/DietPlanner stuff/DietPlanner/DietPlanner/DietMealTableViewController.swift": [9223372036, 854775807]
-  "/Users/sangheonlee/Desktop/DietPlanner stuff/DietPlanner/DietPlanner/DietMeal.swift": [9223372036, 854775807]
-  "/Users/sangheonlee/Desktop/DietPlanner stuff/DietPlanner/DietPlanner/DietMealTableViewCell.swift": [9223372036, 854775807]
-  "/Users/sangheonlee/Desktop/DietPlanner stuff/DietPlanner/DietPlanner/AppDelegate.swift": [9223372036, 854775807]
